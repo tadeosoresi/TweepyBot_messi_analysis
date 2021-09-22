@@ -6,8 +6,8 @@ class ApiKey():
     @staticmethod
     def returnkeys():
         print('--- GETTING API KEYS ---')
-        api_key = 'DMBc5whJ3rUq7IL9lRhXhXcUn' # Consumer key here :)
-        api_key_secret = 'TcTTFMTZmWoT8U1mUaSJ6JmRwskax9ajXC7M59Ik83pbMWuuPu' # Secret consume key here :)
+        api_key = '' # Consumer key here :)
+        api_key_secret = '' # Secret consume key here :)
 
         return api_key, api_key_secret
 
@@ -15,8 +15,8 @@ class Token():
     @staticmethod
     def returnkeys():
         print('--- GETTING TOKENS ---')
-        token_key = '2923241841-FJGTutko51KQT47ONSTwJkAXOWs0isQSky7R8xh' # Access token here :)
-        token_secret = 'hrv3wPL9z1UyHCYW7v9VVTxhEV4Lbxh5OZtmnE6SJk6Gi' # Secret access token here :)
+        token_key = '' # Access token here :)
+        token_secret = '' # Secret access token here :)
 
         return token_key, token_secret
 
@@ -31,7 +31,7 @@ class MeaningCloud():
             'content-type': 'application/x-www-form-urlencoded'
         }
         payload={
-            'key': '0fbbc49fbe29d2c2133fe1e95cfaf739',
+            'key': '', # MeaningCloud key here :)
             'txt': tweet,
             'lang': language,
         }
