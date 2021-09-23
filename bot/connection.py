@@ -8,7 +8,7 @@ class MongoDB():
     def __init__(self):
         try:
             self.host_mongo  = 'mongodb://localhost:27017/'
-            self.cursor= MongoClient(self.host_mongo)
+            self.cursor = MongoClient(self.host_mongo)
             self.db = self.cursor.twitter_bot
         except ConnectionFailure:
             print('--- ERROR AL CONECTARSE A LOCALHOST, POR FAVOR VERIFICAR SI MONGODB ESTA CORRIENDO ---')
