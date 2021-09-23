@@ -13,5 +13,12 @@ El bot se encarga de recopilar los tweets, almacenarlos en MongoDB, analizar cad
 
 CONNECTION.py --> Clase para gestionar MongoDB y traer los datos en formato DataFrame
 
+## 🚀 Lista de mejoras
+La comunidad **open-source** puede mantener este proyecto como desee. Algunas features que se podrían agregar:
+
+- [ ] Crear un ORM
+- [ ] Servir datos con API sencilla en Flask.
+- [ ] Deploy con Docker.
+
 Thanks!
 
